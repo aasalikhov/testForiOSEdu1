@@ -21,6 +21,7 @@ final class ViewController: UIViewController {
 
         // Добавь лэйбл по центру с текстом "тестовый текст"
         labelForTest.text = "тестовый текст"
+        labelForTest.textAlignment = .center
         labelForTest.sizeToFit()
         labelForTest.center = view.center
         
